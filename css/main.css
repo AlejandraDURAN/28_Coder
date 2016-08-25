@@ -1,13 +1,5 @@
 /* Inserta tu codigo aqui */
 
-/* Responsive */
-
-@media screen and (max-width: 600px){
-	.fon{
-		width: 100%;
-	}
-} 
-
 .linea1{
 	width: 5%;
 	border: solid 2px white;
@@ -20,13 +12,8 @@
 
 .mamey{
 	color: #FA5858;
-}
+} 
 
-/*imagenes cuadrados fon*/ 
-.fon{
-	width: 33.3%;
-	height: 300px; 
-}
 
 .text-white{
 	color: white;
@@ -41,7 +28,16 @@ nav.navbar{
 	border: white;
 	position: fixed;
 	z-index: 100;
+}
+.button1{
+	border-radius: 25px 25px;
+	background-color: #fa8258;
+	border: none;
+	padding: 1% 2%;
+}
 
+li a, div a{
+	color: pink !important;
 }
 
 .back1{
@@ -70,7 +66,6 @@ nav.navbar{
 	padding-top: 30%;
 }
 
-
 .name{
 	color: white;
 	background-color: transparent;
@@ -96,6 +91,10 @@ nav.navbar{
 	background-image: url("../img/6.jpg");
 }
 
+.cuadros3{
+	width: 33.3%;
+	height: 300px; 
+}
 .imgback{
 	background-color: #FA5858;
 	width: 100%;
@@ -113,3 +112,8 @@ div .img5:hover div.imgback,
 div .img6:hover div.imgback{
 	opacity: 1;
 }
+@media screen and (max-width: 600px){
+	.cuadros3{
+		width: 100%;
+	}
+} 
