@@ -1,0 +1,54 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+*{
+	font-family: 'Open Sans';
+}
+
+.fondo1{
+	background-image: url("../img/header.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 750px;
+}
+
+.mt-2{
+	margin-top: 2%;
+}
+
+.mt-10{
+	margin-top: 10%;
+}
+
+
+.name{
+	color: white;
+	background-color: transparent;
+
+}
+hr{
+	width: 5%;
+	border: solid 2px #FA5858;
+}
+#portafolio{
+	font-size: 150%;
+	color: white;
+}
+
+nav.navbar{
+	background-color: transparent;
+	border: white;
+	position: fixed;
+	z-index: 100;
+
+}
+
